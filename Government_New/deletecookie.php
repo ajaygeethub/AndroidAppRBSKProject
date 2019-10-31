@@ -1,0 +1,9 @@
+<?php
+	setcookie("login","",time()-3600);
+	setcookie("uid","",time()-3600);
+	setcookie("taluka","",time()-3600);
+	header("Location:index.php");
+	session_start();
+	session_unset();
+	session_destroy();
+?>

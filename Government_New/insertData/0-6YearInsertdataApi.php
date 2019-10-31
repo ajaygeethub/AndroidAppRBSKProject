@@ -1,0 +1,8 @@
+<?php
+
+include 'db.php';
+//$sql="INSERT INTO `childrendetails`(`Distict`, `MobileHealthTeam`, `AWCName`, `AWCId`, `AshaName`, `AshaId`, `ChildName`, `father`, `mother`, `DOB`, `Gender`, `Contact`, `EmamtaNo`, `AdharNo`, `Address`, `Weight`, `WeightForAge`, `Height`, `HeightForAge`, `Head`, `HeadForAge`, `MUAC`, `MUACForAge`, `Uid`, `date`) VALUES ('".$_POST['District_and_Corporation']."','".$_POST['MobileHealthTeamID']."','".$_POST['AWCName']."','".$_POST['AWCID']."','".$_POST['AashaName']."','".$_POST['AashaID']."','".$_POST['childName']."','".$_POST['father']."','".$_POST['mother']."','','".$_POST['gender']."','".$_POST['contactNo']."','".$_POST['EMamtaNo']."','".$_POST['aadharNo']."','".$_POST['address']."','".$_POST['Weight']."','".$_POST['WeightClassification']."','".$_POST['Height']."','".$_POST['HeightClassification']."','".$_POST['HeadCircum']."','".$_POST['HeadCircmClassification']."','".$_POST['MUAC']."','".$_POST['MUACClassification']."','1','".date('Y-m-d')."')";
+
+$sql="INSERT INTO `childrendetails`(`Distict`, `MobileHealthTeam`, `AWCName`, `AWCId`, `AshaName`, `AshaId`, `ChildName`, `father`, `mother`, `DOB`, `Gender`, `Contact`, `EmamtaNo`, `AdharNo`, `Address`, `Weight`, `WeightForAge`, `Height`, `HeightForAge`, `Head`, `HeadForAge`, `MUAC`, `MUACForAge`, `Uid`, `date`) VALUES ('','','','','','','','','','','','','','','','','','','','','','','','1','".date('Y-m-d')."')";
+$result=mysql_query($sql);
+?>

@@ -1,0 +1,382 @@
+body {
+    margin: 0px;
+    padding: 0px;
+	color:black;
+}
+
+.s{
+    padding-bottom: 20px;
+	
+	text-align:left;
+}/*Textbox */
+.box{
+    border: 1px solid;
+    padding: 10px;
+}
+
+
+.status{
+	background-color:rgb(255,127,39);
+	height:40px;
+	width:100%;
+	color:white;
+	font-family:Arial;
+	font-size:20px;
+}
+
+
+.b{
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+	padding:8px 30px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 8px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+}
+.b:hover{
+   background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+    outline: none;
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.b1{
+    border:2px solid;
+    background-color:rgb(237,28,36); /* bf0000 */
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 8px 24px;
+    cursor: pointer;
+}
+
+
+.b1:hover{
+	background-color:white;
+    color:rgb(237,28,36);
+    border-radius: 8px;
+    padding: 8px 24px;
+    cursor: pointer;
+    border:2px solid;
+    border-color:rgb(237,28,36);
+	
+}
+.penel{
+    border:1px solid;
+    
+    border-radius: 2px;
+}
+.penel-header{
+    background-color: rgb(40,85,80);
+    color:white;
+    padding: 8px;
+}
+.penel-contect{
+    padding: 8px;
+}
+.us{
+    margin: 0px 0px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    outline: none;
+	width:80%;
+}
+
+.us:focus{
+	 background-color: lightblue;
+}
+.usp{
+    margin: 0px 0px;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+}
+
+.usp:focus{
+	 background-color: white;
+}
+.required{
+	color:red;
+	font-size:16px;
+}
+select {
+    width: 100%;
+    padding: 4px 8px;
+    border:solid 1px;
+	
+}
+
+input[type=text] {
+    width: 100%;
+	padding: 4px 8px;
+    box-sizing: border-box;
+
+}
+
+input[type=password] {
+    width: 100%;   
+	padding: 2px 8px;
+    box-sizing: border-box;
+}
+
+input[type=date] {
+    width: 100%;   
+	padding: 2px 8px;
+    box-sizing: border-box;
+}
+
+
+h1{
+	color:Gold;	
+}
+
+
+h4{
+	color:Gold;
+	text-align:right;
+}
+
+
+h3{
+	color:rgb(0,51,102);
+	text-align:center;
+}
+
+
+.btn
+{
+	background-color:rgb(204,51,0);
+	color:white;
+	padding:8px 40px;
+}
+
+
+.uname{
+	color:Red;
+	font-family:Microsoft Himalaya 50px;
+	redious:4px 4px 4px 4px;
+}
+
+
+table {
+    width:auto;
+	padding:0px;
+	
+}
+
+th, td {
+    text-align: left;
+    padding: 0px;
+	
+}
+
+
+
+th {
+	background-color:#FF5050; /* 0,97,138 */
+    color: white;
+	text-align:center;
+		
+	
+}
+ tr:hover{
+	background-color:#BBBB11; /* 0,97,138 */
+    color: white;
+	text-align:center;
+		
+	
+}
+
+.imglogo{
+	float:left;
+	text-align:center;
+}
+
+
+.prdrpt:th{
+	background-color:hotpink;
+	padding:4px;
+}
+
+.title{
+	
+	font-weight: bold;
+	color:rgb(128,0,64);
+	
+}
+
+.titlegreen{
+	
+	font-weight: bold;
+	color:green;
+	
+}
+
+
+.titlered{
+	
+	font-weight: bold;
+	color:red;
+	
+}
+
+
+.homepagelogo {
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.homepagelogo:hover {
+    width: 250px;
+    height: 100px;
+}
+
+
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+
+}
+
+/* Left and right column */
+.column.side {
+    width: 18%;
+	
+}
+
+/* Middle column */
+.column.middle {
+    width: 82%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+/* Create three unequal columns that floats next to each other */
+.c {
+    float: left;
+}
+
+/* Left and right column */
+.c.side {
+    width: 15%;	
+	
+}
+
+/* Middle column */
+.c.middle {
+    width: 85%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+
+
+/*----------------------------- Production Page---------------------------------*/
+
+
+/* Create three unequal columns that floats next to each other */
+.p {
+    float: left;
+    padding: 10px;
+	width:50%;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1000px) {
+    .p {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+/* Report Page */
+
+/* Create three unequal columns that floats next to each other */
+.r {
+    float: left;
+    padding: 10px;
+	width:33%;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1000px) {
+    .r {
+        width: 100%;
+    }
+}
+
+
+
+.col{
+	padding:0px 0px;
+	margin:0px 0px 0px 0px;
+}
+.panel-heading { background-color: #F4976C; }
+
+.table-fixed
+{
+    overflow-y: scroll;
+    height: 80vh;
+}
+.table-fixed th
+{
+    position: sticky;
+    top: 0;
+}

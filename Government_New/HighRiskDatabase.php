@@ -1,0 +1,15 @@
+
+<?php
+	include 'db.php';
+	
+	$sql="INSERT INTO `highrisk`( `DateRBSK`, `DateAttending`, `PHC`, `SubCenter`, `Village`, `MotherName`, `phoneNo`, `ResonOfHighRisk`, `LMP`, `LmpDate`, `BPMatch`, `BPPedaledma`, `HB`, `BloodGroup`, `HBmatchWithMamta`, `HBLess7`, `IronSucroseDate`, `BloodSuger`, `ThalassemiaTest`, `ThalassemiaResult`, `HIVTest`, `HIVResult`, `SonographyTest`, `SonographyResult`, `SonographyDate`, `GravidaPara`, `TTDose`, `TTDate`, `HRMotherAware`, `HOPreviousDelivery`, `HORemarks`, `Addication`, `AddicationRemarks`, `DeliveryPlan`, `VisitFHW`, `ASHA`, `uid`) VALUES ('".$_POST['DateRBSK']."','".$_POST['DateAttending']."','".$_POST['PHC']."','".$_POST['SubCenter']."','".$_POST['Village']."','".$_POST['MotherName']."','".$_POST['phoneNo']."','".$_POST['ResonOfHighRisk']."','".$_POST['LMP']."','".$_POST['LmpDate']."','".$_POST['BPMatch']."','".$_POST['BPPedaledma']."','".$_POST['HB']."','".$_POST['BloodGroup']."','".$_POST['HBmatchWithMamta']."','".$_POST['HBLess7']."','".$_POST['IronSucroseDate']."','".$_POST['BloodSuger']."','".$_POST['ThalassemiaTest']."','".$_POST['ThalassemiaResult']."','".$_POST['HIVTest']."','".$_POST['HIVResult']."','".$_POST['SonographyTest']."','".$_POST['SonographyResult']."','".$_POST['SonographyDate']."','".$_POST['GravidaPara']."','".$_POST['TTDose']."','".$_POST['TTDate']."','".$_POST['HRMotherAware']."','".$_POST['HOPreviousDelivery']."','".$_POST['HORemarks']."','".$_POST['Addication']."','".$_POST['AddicationRemarks']."','".$_POST['DeliveryPlan']."','".$_POST['VisitFHW']."','".$_POST['ASHA']."','uid')";
+	
+	//$sql="INSERT INTO `highrisk`( `DateRBSK`, `DateAttending`, `PHC`, `SubCenter`, `Village`, `MotherName`, `phoneNo`, `ResonOfHighRisk`, `LMP`, `LmpDate`, `BPMatch`, `BPPedaledma`, `HB`, `BloodGroup`, `HBmatchWithMamta`, `HBLess7`, `IronSucroseDate`, `BloodSuger`, `ThalassemiaTest`, `ThalassemiaResult`, `HIVTest`, `HIVResult`, `SonographyTest`, `SonographyResult`, `SonographyDate`, `GravidaPara`, `TTDose`, `TTDate`, `HRMotherAware`, `HOPreviousDelivery`, `HORemarks`, `Addication`, `AddicationRemarks`, `DeliveryPlan`, `VisitFHW`, `ASHA`, `uid`) VALUES ('','','".$_POST['PHC']."','".$_POST['SubCenter']."','".$_POST['Village']."','".$_POST['MotherName']."','".$_POST['phoneNo']."','".$_POST['ResonOfHighRisk']."','".$_POST['LMP']."','','".$_POST['BPMatch']."','".$_POST['BPPedaledma']."','".$_POST['HB']."','".$_POST['BloodGroup']."','".$_POST['HBmatchWithMamta']."','".$_POST['HBLess7']."','','".$_POST['BloodSuger']."','".$_POST['ThalassemiaTest']."','".$_POST['ThalassemiaResult']."','".$_POST['HIVTest']."','".$_POST['HIVResult']."','".$_POST['SonographyTest']."','".$_POST['SonographyResult']."','','".$_POST['GravidaPara']."','".$_POST['TTDose']."','','".$_POST['HRMotherAware']."','".$_POST['HOPreviousDelivery']."','".$_POST['HORemarks']."','".$_POST['Addication']."','".$_POST['AddicationRemarks']."','".$_POST['DeliveryPlan']."','".$_POST['VisitFHW']."','".$_POST['ASHA']."','uid')";
+	if (mysql_query($sql)) {
+		echo "success";
+	}
+	else
+	{
+		echo "sory ";
+	}
+?>
