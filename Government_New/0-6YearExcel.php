@@ -6,7 +6,6 @@ if(isset($_SESSION['login']))
 }
 else
 {
-		header("Location:index.php");
 }
 include 'db.php';
 $id=$_GET['n'];
